@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginbackground_land"
+    tools:context="mhj.Grp10_AppProject.Activities.LoginActivity">
+
+    <Button
+        android:id="@+id/CreateASale"
+        android:layout_width="203dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#31FF9800"
+        android:onClick="MakeASale"
+        android:text="@string/btn_make_a_sale"
+        app:layout_constraintBottom_toTopOf="@+id/logoutBtn"
+        app:layout_constraintEnd_toEndOf="@+id/logoutBtn" />
+
+    <Button
+        android:id="@+id/logoutBtn"
+        android:layout_width="203dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="#31FF9800"
+        android:onClick="LogOut"
+        android:text="@string/btn_logout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/marketsButton"
+        android:layout_width="203dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#31FF9800"
+        android:onClick="OpenMarket"
+        android:text="@string/btn_market"
+        app:layout_constraintBottom_toTopOf="@+id/CreateASale"
+        app:layout_constraintEnd_toEndOf="@+id/CreateASale" />
+
+    <Button
+        android:id="@+id/signInBtn"
+        android:layout_width="203dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#31FF9800"
+        android:onClick="SignIn"
+        android:text="@string/btn_login_register"
+        app:layout_constraintBottom_toTopOf="@+id/marketsButton"
+        app:layout_constraintEnd_toEndOf="@+id/marketsButton" />
+</androidx.constraintlayout.widget.ConstraintLayout>

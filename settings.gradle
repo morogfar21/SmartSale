@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "Groupe 10 Final App Project"

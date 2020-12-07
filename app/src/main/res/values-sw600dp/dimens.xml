@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_outer">16dp</dimen>
+
+    <!--default dimensions for tablets -->
+    <!--Buttons -->
+    <dimen name="button_layout_width">200dp</dimen>
+    <dimen name="button_layout_heigth">100dp</dimen>
+    <dimen name="button_text_size">20sp</dimen>
+
+    <!--General Texts -->
+    <dimen name="text_size">20sp</dimen>
+    <dimen name="text_size_larger">24sp</dimen>
+    <dimen name="header_text_size">40sp</dimen>
+</resources>
